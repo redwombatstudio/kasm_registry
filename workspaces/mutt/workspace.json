@@ -1,4 +1,5 @@
 {
+  "name": "registry.darkcanvas.com/mutt:latest",
   "description": "Mutt is an email client that sucks less than others",
   "docker_registry": "https://registry.darkcanvas.com",
   "image_src": "muttlogo.png",
@@ -23,7 +24,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "mutt:latest",
+      "image": "registry.darkcanvas.com/mutt:latest",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "latest"
