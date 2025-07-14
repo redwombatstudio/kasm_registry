@@ -1,7 +1,7 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
-  "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "chromium.png",
+  "description": "Mutt is an email client that sucks less than others",
+  "docker_registry": "https://registry.darkcanvas.com",
+  "image_src": "muttlogo.png",
   "run_config": {
     "hostname": "kasm"
   },
@@ -14,20 +14,19 @@
     }
   },
   "categories": [
-    "Browser"
+    "Email"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Mutt",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "kasmweb/chromium:develop",
+      "image": "mutt:latest",
       "uncompressed_size_mb": 2170,
       "available_tags": [
-        "develop"
+        "latest"
       ]
     }
   ]
