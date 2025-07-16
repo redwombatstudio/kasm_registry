@@ -2,7 +2,7 @@
   "name": "registry.darkcanvas.com/betterbird:latest",
   "description": "Betterbird is a soft fork of Mozilla Thunderbird with fixes and additions",
   "docker_registry": "https://registry.darkcanvas.com",
-  "image_src": "betterbird.png",
+  "image_src": "betterbird.svg",
   "run_config": {
     "hostname": "kasm"
   },
