@@ -11,8 +11,8 @@ const nextConfig = {
     contactUrl: 'https://github.com/redwombatstudio/kasm_registry/issues',
   },
   reactStrictMode: true,
-  basePath: '/kasm_registry/1.1/',
-  trailingSlash: false,
+  basePath: '/kasm_registry/1.1',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   }
