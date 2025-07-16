@@ -1,7 +1,6 @@
 # Workspaces directory
 
-This directory is for storing all the files needed for your workspaces store, they should be stored with the following structure:
+This contains the manifests for containers made by/for RWS/Sonney
 
-* workspaces/Workspace Name
-* workspaces/Workspace Name/workspace.json
-* workspaces/Workspace Name/workspace-name.png
+ - Mutt: kasm-terminal with mutt and sudo installed
+ - Betterbird: kasm-thunderbird with betterbird instead
