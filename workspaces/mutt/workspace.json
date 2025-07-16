@@ -24,9 +24,10 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "registry.darkcanvas.com/mutt:latest",
+      "image": "registry.darkcanvas.com/mutt",
       "uncompressed_size_mb": 2170,
       "available_tags": [
+	"main",
         "latest"
       ]
     }
