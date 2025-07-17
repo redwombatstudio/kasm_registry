@@ -1,0 +1,35 @@
+{
+  "name": "registry.darkcanvas.com/orgmode:latest",
+  "description": "Emacs for Org-Mode",
+  "docker_registry": "https://registry.darkcanvas.com",
+  "image_src": "org-mode-unicorn.svg",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Email"
+  ],
+  "friendly_name": "Org Mode",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "registry.darkcanvas.com/orgmode",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+	"main",
+        "latest"
+      ]
+    }
+  ]
+}
