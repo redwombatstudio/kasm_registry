@@ -17,7 +17,7 @@
   "categories": [
     "Email"
   ],
-  "friendly_name": "Org Mode",
+  "friendly_name": "Sieve Manager",
   "architecture": [
     "amd64"
   ],
