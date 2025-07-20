@@ -1,0 +1,35 @@
+{
+  "name": "registry.darkcanvas.com/kontact:latest",
+  "description": "Kontact Email Client",
+  "docker_registry": "https://registry.darkcanvas.com",
+  "image_src": "kontact.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Email"
+  ],
+  "friendly_name": "Kontact",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "registry.darkcanvas.com/kontact",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}

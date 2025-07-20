@@ -7,3 +7,4 @@ This contains the manifests for containers made by/for RWS/Sonney
  - orgmode: Emacs for org-mode
  - adminterm: kasm-terminal with sudo, mutt, and emacs
  - sieve: Sieve Script Editor
+ - kontact: Kontact KDE Office client
