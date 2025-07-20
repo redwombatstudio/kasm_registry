@@ -6,8 +6,8 @@ const nextConfig = {
   env: {
     name: 'Red Wombat Studio',
     description: 'The official store for RWS supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://redwombatstudio.github.io/kasm_registry',
+    icon: '/img/logo.png',
+    listUrl: 'https://redwombatstudio.github.io/kasm_registry/',
     contactUrl: 'https://github.com/redwombatstudio/kasm_registry/issues',
   },
   reactStrictMode: true,
