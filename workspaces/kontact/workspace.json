@@ -28,7 +28,8 @@
       "image": "ksonney/kontact",
       "uncompressed_size_mb": 2170,
       "available_tags": [
-        "latest"
+        "latest",
+	"main"
       ]
     }
   ]

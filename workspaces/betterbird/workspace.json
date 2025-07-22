@@ -19,8 +19,7 @@
   ],
   "friendly_name": "Betterbird",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
@@ -28,7 +27,8 @@
       "image": "ksonney/betterbird",
       "uncompressed_size_mb": 2170,
       "available_tags": [
-        "latest"
+        "latest",
+	"main"
       ]
     }
   ]
