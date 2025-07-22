@@ -1,7 +1,7 @@
 {
-  "name": "registry.darkcanvas.com/orgmode:latest",
+  "name": "ksonney/orgmode:latest",
   "description": "Emacs for Org-Mode",
-  "docker_registry": "https://registry.darkcanvas.com",
+  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "org-mode-unicorn.svg",
   "run_config": {
     "hostname": "kasm"
@@ -25,7 +25,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "registry.darkcanvas.com/orgmode",
+      "image": "ksonney/orgmode",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "latest"
