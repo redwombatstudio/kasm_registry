@@ -17,6 +17,10 @@ Repository Web UI: [https://redwombatstudio.github.io/kasm_registry/1.1/](https:
 
 Repository KASM URL: [https://redwombatstudio.github.io/kasm_registry/](https://redwombatstudio.github.io/kasm_registry/)
 
+Container Branches:
+  - `main`: Known working stable builds
+  - `latest`: Latest build, may or may not be stable
+
 ## Adding to KASM
 
 > **Note**
