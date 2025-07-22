@@ -8,3 +8,4 @@ This contains the manifests for containers made by/for RWS/Sonney
  - adminterm: kasm-terminal with sudo, mutt, and emacs
  - sieve: Sieve Script Editor
  - kontact: Kontact KDE Office client
+ - claws-mail: Claws Mail
