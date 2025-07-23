@@ -1,6 +1,6 @@
 {
   "name": "ksonney/claws-mail:latest",
-  "description": "Claws Mail",
+  "description": "Claws Mail Client (arm64 version does not include plugins)",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "claws-mail.png",
   "run_config": {
