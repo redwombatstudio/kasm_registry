@@ -19,6 +19,7 @@
   ],
   "friendly_name": "Betterbird",
   "architecture": [
+    "arm64",
     "amd64"
   ],
   "compatibility": [

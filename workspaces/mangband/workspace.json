@@ -19,6 +19,7 @@
   ],
   "friendly_name": "MAngband Client",
   "architecture": [
+    "arm64",
     "amd64"
   ],
   "compatibility": [
