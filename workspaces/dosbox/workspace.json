@@ -2,7 +2,7 @@
   "name": "ksonney/dosbox:latest",
   "description": "Dosbox DOS Emulator",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "terminal.png",
+  "image_src": "dosbox.png",
   "run_config": {
     "hostname": "kasm"
   },
