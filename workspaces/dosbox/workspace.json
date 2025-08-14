@@ -1,0 +1,36 @@
+{
+  "name": "ksonney/dosbox:latest",
+  "description": "Dosbox DOS Emulator",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "terminal.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "DosBox",
+  "architecture": [
+    "arm64",
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "ksonney/dosbox",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "latest",
+	"main"
+      ]
+    }
+  ]
+}
